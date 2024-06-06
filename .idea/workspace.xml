@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ec829d0-be43-4cb3-98fb-af44b8f52bf7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/database/dao/RestaurantFoodDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/database/dao/RestaurantProfileDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/service/internal/impl/RestaurantFoodServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/service/internal/impl/RestaurantProfileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/database/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/service/internal/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/service/internal/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00cb09bd831bf3eaf04c5a896e8e6b342cf75f4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18411edfc99b0e1acd5e55dff0a6c5972b5ac0bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bf723ecdf8ec9f7f44ca3c73a95a670d6bbc5b0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/271abd5ccf39a07993271f98f7004acd91ad606f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32c798093204aebc291d974313e1454d593c5139" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3bf126643e9ec7848e0aa015d3f45119331b5e0c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3dae00b97a0885fc1f29abe4ac8fbadca724723c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c391e6587bd70a8c9e99b31f741d3b28e1067c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5bff4511c6c6c676fac8369cf585074376525adf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d9e51a5d1ce5c097ac5d5d8a35c105ac1d03fbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6a2af841941c4f84aa7fad915ef4e3e2f54e413b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6ab4747ea57d9fe4784cf294a378267715cfa98b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6ab4747ea57d9fe4784cf294a378267715cfa98b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/7280583dadce4062659c3fa544bd5385371a7afb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82adace179f3f03c90f3a6d2cc268a4656941612" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93cf30eac2b227d7c7570a4cd85e08e62441bdf8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/955976de59db028a0a206af80a476dbdce3b55fa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a05f2813b3a4ff9a2fd431073423999a25c4dd7d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac7e48c49048ad51eaf4e92a98e601a6c86c48d4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b439e641348a9a6af428493b7aa279aa04c660b5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b80050e007a4586eb91dedd2d82e69aa6b760ded" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba9e079d00eb9f212bb3b59ecb720a61c1736324" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bdcabb9c76df60dc25fb7321a22f9e18f59d07c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c763296cea7c27f00b65bdcc464263f21539d408" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cbd85ffbfecf9efca6448f58ee3258676e75553f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd30910c83b5a9e3098587371628fd204372cab4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df44ee179e8eaaeb5a006037f6c839ff349d667d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3feb55d351a57db00a03f9e70c3b526dc070210" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4a36891145a362243751fbf387d08a90ad45aea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7d9f072efd0cd90461e0ae0b1702b6f717cab58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed44b3df5537113a97501323bf138b68a7772ba5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f68f171e2756cb80cc652d99224a81aa8c6393ae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb22e8b5000c13248a4cba3967ac35689d0e58f0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe1b1e8a7e2215ccd72893bd3590086d1c62f45b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/0/00cb09bd831bf3eaf04c5a896e8e6b342cf75f4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/8/18411edfc99b0e1acd5e55dff0a6c5972b5ac0bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/b/1bf723ecdf8ec9f7f44ca3c73a95a670d6bbc5b0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/7/271abd5ccf39a07993271f98f7004acd91ad606f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/2/32c798093204aebc291d974313e1454d593c5139" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/b/3bf126643e9ec7848e0aa015d3f45119331b5e0c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/d/3dae00b97a0885fc1f29abe4ac8fbadca724723c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/c/4c391e6587bd70a8c9e99b31f741d3b28e1067c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/b/5bff4511c6c6c676fac8369cf585074376525adf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/d/5d9e51a5d1ce5c097ac5d5d8a35c105ac1d03fbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/a/6a2af841941c4f84aa7fad915ef4e3e2f54e413b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/2/7280583dadce4062659c3fa544bd5385371a7afb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/2/82adace179f3f03c90f3a6d2cc268a4656941612" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/3/93cf30eac2b227d7c7570a4cd85e08e62441bdf8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/5/955976de59db028a0a206af80a476dbdce3b55fa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/0/a05f2813b3a4ff9a2fd431073423999a25c4dd7d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/c/ac7e48c49048ad51eaf4e92a98e601a6c86c48d4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/4/b439e641348a9a6af428493b7aa279aa04c660b5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/8/b80050e007a4586eb91dedd2d82e69aa6b760ded" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/a/ba9e079d00eb9f212bb3b59ecb720a61c1736324" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/d/bdcabb9c76df60dc25fb7321a22f9e18f59d07c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/7/c763296cea7c27f00b65bdcc464263f21539d408" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/b/cbd85ffbfecf9efca6448f58ee3258676e75553f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/d/cd30910c83b5a9e3098587371628fd204372cab4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/f/df44ee179e8eaaeb5a006037f6c839ff349d667d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/3/e3feb55d351a57db00a03f9e70c3b526dc070210" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/4/e4a36891145a362243751fbf387d08a90ad45aea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/7/e7d9f072efd0cd90461e0ae0b1702b6f717cab58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/d/ed44b3df5537113a97501323bf138b68a7772ba5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/6/f68f171e2756cb80cc652d99224a81aa8c6393ae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/b/fb22e8b5000c13248a4cba3967ac35689d0e58f0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/e/fe1b1e8a7e2215ccd72893bd3590086d1c62f45b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/org/foodhub/common/exception/HashAlgorithmNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/org/foodhub/common/exception/HashAlgorithmNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/org/foodhub/common/exception/JacksonDataConversionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/org/foodhub/common/exception/JacksonDataConversionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/org/foodhub/common/hashgenerator/PasswordHashGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/org/foodhub/common/hashgenerator/PasswordHashGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/org/foodhub/common/hibernate/ValidatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/org/foodhub/common/hibernate/impl/HibernateEntityValidatorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/org/foodhub/common/json/JsonArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/org/foodhub/common/json/JsonArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/org/foodhub/common/json/JsonFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/org/foodhub/common/json/JsonFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/org/foodhub/common/json/JsonObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/org/foodhub/common/json/JsonObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/resources/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/org/foodhub/database/connection/DataBaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/org/foodhub/database/connection/DataBaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/org/foodhub/database/exception/DatabaseConnectionFailureException.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/org/foodhub/database/exception/DatabaseConnectionFailureException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/org/foodhub/database/querybuilder/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/org/foodhub/database/querybuilder/Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/org/foodhub/database/querybuilder/clauses/JoinClause.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/org/foodhub/database/querybuilder/clauses/JoinClause.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/org/foodhub/database/querybuilder/clauses/WhereClause.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/org/foodhub/database/querybuilder/clauses/WhereClause.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/org/foodhub/database/querywriter/QueryWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/org/foodhub/database/querywriter/QueryWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/java/org/foodhub/database/querywriter/impl/QueryWriterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/org/foodhub/database/querywriter/impl/QueryWriterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/resources/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/src/main/java/org/foodhub/exception/customexception/SwiggyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/exception/src/main/java/org/foodhub/exception/customexception/DefaultException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/RestaurantActivator.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/RestaurantActivator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/controller/RestaurantFoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/controller/RestaurantFoodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/controller/RestaurantProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/controller/RestaurantProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/exception/food/FoodDataNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/exception/food/FoodDataNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/exception/food/InvalidFoodDataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/exception/food/InvalidFoodDataException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/exception/food/MenuCardNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/exception/food/MenuCardNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/exception/restaurant/RestaurantDataNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/exception/restaurant/RestaurantDataNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/exception/restaurant/RestaurantProfileCreationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/exception/restaurant/RestaurantProfileCreationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/exception/restaurant/RestaurantProfileUpdateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/exception/restaurant/RestaurantProfileUpdateException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/internal/database/dao/RestaurantFoodDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/internal/database/dao/RestaurantProfileDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/internal/database/dao/impl/RestaurantFoodDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/database/internal/impl/RestaurantFoodDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/internal/database/dao/impl/RestaurantProfileDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/database/internal/impl/RestaurantProfileDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/internal/database/persistenceservice/RestaurantFoodPersistenceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/database/persistenceservice/RestaurantFoodPersistenceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/internal/database/persistenceservice/RestaurantProfilePersistenceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/database/persistenceservice/RestaurantProfilePersistenceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/internal/database/resultsetextractor/RestaurantFoodResultSetExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/database/resultsetextractor/RestaurantFoodResultSetExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/internal/database/resultsetextractor/RestaurantProfileResultSetExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/database/resultsetextractor/RestaurantProfileResultSetExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/internal/database/table/FoodTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/database/table/FoodTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/internal/database/table/RestaurantFoodTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/database/table/RestaurantFoodTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/internal/database/table/RestaurantTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/database/table/RestaurantTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/model/food/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/model/food/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/model/food/FoodType.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/model/food/FoodType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/model/restaurant/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/model/restaurant/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/model/restaurant/RestaurantLoginDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/model/restaurant/RestaurantLoginDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/model/restaurant/RestaurantProfileUpdateDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/model/restaurant/RestaurantProfileUpdateDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/service/RestaurantFoodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/service/RestaurantFoodService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/service/RestaurantProfileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/service/RestaurantProfileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/service/impl/RestaurantFoodServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/main/java/org/foodhub/restaurant/service/impl/RestaurantProfileServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/org/foodhub/launcher/Activator.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/org/foodhub/launcher/Activator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swiggy-feature/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/swiggy-feature/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/UserActivator.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/UserActivator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/cart/CartDataNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/cart/CartDataNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/cart/CartUpdateFailureException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/cart/CartUpdateFailureException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/order/OrderDataNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/order/OrderDataNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/order/OrderPlacementFailureException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/order/OrderPlacementFailureException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/user/UserProfileCreationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/user/UserProfileCreationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/user/UserProfileNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/user/UserProfileNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/user/UserProfileUpdateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/user/UserProfileUpdateException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/user/address/AddressDataNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/user/address/AddressDataNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/user/address/AddressDataPersistenceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/exception/user/address/AddressDataPersistenceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/internal/database/dao/CartDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/database/dao/CartDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/internal/database/dao/OrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/database/dao/OrderDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/internal/database/dao/UserDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/internal/database/dao/impl/CartDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/database/dao/internal/impl/CartDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/internal/database/dao/impl/OrderDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/database/dao/internal/impl/OrderDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/internal/database/dao/impl/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/database/dao/internal/impl/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/internal/database/persistenceservice/CartPersistenceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/database/persistenceservice/CartPersistenceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/internal/database/persistenceservice/OrderPersistenceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/database/persistenceservice/OrderPersistenceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/internal/database/persistenceservice/UserPersistenceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/database/persistenceservice/UserPersistenceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/internal/database/resultsetextractor/CartResultSetExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/database/resultsetextractor/CartResultSetExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/internal/database/resultsetextractor/OrderResultSetExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/database/resultsetextractor/OrderResultSetExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/internal/database/resultsetextractor/UserResultSetExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/database/resultsetextractor/UserResultSetExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/internal/database/table/AddressTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/database/table/AddressTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/internal/database/table/CartTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/database/table/CartTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/internal/database/table/OrderTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/database/table/OrderTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/internal/database/table/UserTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/database/table/UserTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/model/address/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/model/address/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/model/address/AddressType.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/model/address/AddressType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/model/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/model/cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/model/cart/CartStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/model/cart/CartStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/model/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/model/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/model/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/model/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/model/user/UserProfileField.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/model/user/UserProfileField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/model/user/UserProfileUpdateDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/model/user/UserProfileUpdateDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/service/CartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/service/impl/CartServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/service/internal/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/org/foodhub/user/service/impl/UserServiceImpl.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-21.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-21.0.2/lib/src.zip!/java.base/java/lang/reflect/Constructor.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-21.0.2/lib/src.zip!/java.base/java/util/AbstractList.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-21.0.2/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-21.0.2/lib/src.zip!/java.base/java/util/Hashtable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-21.0.2/lib/src.zip!/java.base/java/util/Map.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0-sources.jar!/org/mockito/ArgumentMatchers.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2gEBv1aehlKzBvqeLMpB28sYlES" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java/swiggy/user/src/test&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\swiggy\user\src\test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.foodhub.user.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Remote JVM Debug.swiggy">
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.foodhub.user.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.foodhub.user.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.foodhub.user.controller.UserControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.shouldReturnCorrectUserDetailsForGivenUserIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.foodhub.user.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.foodhub.user.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.foodhub.user.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="shouldReturnCorrectUserDetailsForGivenUserIds(long)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.shouldValidateAndCreateUserProfileBasedOnInputData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.foodhub.user.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.foodhub.user.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.foodhub.user.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="shouldValidateAndCreateUserProfileBasedOnInputData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.shouldReturnCorrectUserDetailsForGivenUserIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.foodhub.user.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.foodhub.user.service" />
+      <option name="MAIN_CLASS_NAME" value="org.foodhub.user.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="shouldReturnCorrectUserDetailsForGivenUserIds(long)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.shouldValidateAndCreateUserProfileBasedOnInputData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.foodhub.user.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.foodhub.user.service" />
+      <option name="MAIN_CLASS_NAME" value="org.foodhub.user.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="shouldValidateAndCreateUserProfileBasedOnInputData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="swiggy-feature" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="swiggy-feature" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="swiggy [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="swiggy" type="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.UserControllerTest" />
+      <item itemvalue="JUnit.UserControllerTest.shouldReturnCorrectUserDetailsForGivenUserIds" />
+      <item itemvalue="JUnit.UserControllerTest.shouldValidateAndCreateUserProfileBasedOnInputData" />
+      <item itemvalue="JUnit.UserServiceTest.shouldReturnCorrectUserDetailsForGivenUserIds" />
+      <item itemvalue="JUnit.UserServiceTest.shouldValidateAndCreateUserProfileBasedOnInputData" />
+      <item itemvalue="Maven.swiggy [clean,install]" />
+      <item itemvalue="Remote JVM Debug.swiggy" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserControllerTest.shouldReturnCorrectUserDetailsForGivenUserIds" />
+        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.UserServiceTest.shouldValidateAndCreateUserProfileBasedOnInputData" />
+        <item itemvalue="JUnit.UserServiceTest.shouldReturnCorrectUserDetailsForGivenUserIds" />
+        <item itemvalue="JUnit.UserControllerTest.shouldValidateAndCreateUserProfileBasedOnInputData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ec829d0-be43-4cb3-98fb-af44b8f52bf7" name="Changes" comment="" />
+      <created>1715253084291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715253084291</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1a588b0e-14ce-4fb3-8584-0eb3840033e3" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1a588b0e-14ce-4fb3-8584-0eb3840033e3">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/swiggy$UserControllerTest_checkUserProfileCreation__1_.ic" NAME="UserControllerTest.checkUserProfileCreation (1) Coverage Results" MODIFIED="1716879007508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.foodhub.user.controller.*</FILTER>
+    </SUITE>
+  </component>
+</project>
